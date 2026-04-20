@@ -69,7 +69,7 @@ print("Lancement de l'entraînement lourd...")
 model.fit(
     train_gen,
     validation_data=val_gen,
-    epochs=50,
+    epochs=70,
     verbose=1
 )
 
