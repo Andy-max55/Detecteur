@@ -114,7 +114,7 @@ class ScannerApp(ctk.CTk):
             ret, frame = cap.read()
             if not ret: break
 
-            cv2.putText(frame, "ESPACE : Capturer | Q : Quitter", (10, 30), 
+            cv2.putText(frame, "ESPACE : Capturer | Q : Quitter", (12, 30), 
                         cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 255, 0), 2)
             cv2.imshow("SCANNER DE SECURITE - IA", frame)
 
